@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+  <link href="./styless/style.css" rel="stylesheet">
+  <script src="app.js"></script>
+</head>
+<body>
+<header> 
+  <div class="header-principal">
+    <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+              class="container__imagem container__imagem-transparente"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+  </div>
+</header>
+
+<section class="banner">
+  <p class="banner__texto">Encontre em nossa estante o sneakear ideal para o seu uso!!</p>
+  <input type="search" class="banner__pesquisa" placeholder="Qual o tênis que procura?">
+</section>
+
+<section class="carrossel">
+  <h2 class="carrossel__titulo">Novos lançamentos</h2>
+  <!-- Slider main container -->
+  <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img id="adcaer"
+                  alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img id="adcaer"
+                  alt="Livro sobre liderança em design da alura books"></div>
+          <div class="swiper-slide"><img id="adcaer"
+                  alt="Livro sobre javascript assertivo da alurabooks"></div>
+          <div class="swiper-slide"><img id="adcaer" alt="Livro Guia front end"></div>
+          <div class="swiper-slide"><img id="adcaer" alt="Livro sobre portugol"></div>
+          <div class="swiper-slide"><img id="adcaer" alt="livro sobre acessibilidade"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<section class="apresentacao">
+    <div class="apresetacao-principal">
+        <h2 class="irminite-titulo">Irminite Sneakers</h2>
+        <p class="apresentacao-irminite"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus id nibh in varius. Sed tristique metus sed ligula laoreet tincidunt. Fusce suscipit semper eros, eu tincidunt magna varius sit amet. Nam non venenatis erat. Nam semper tellus tristique, finibus sapien ut, consectetur purus. Nullam fringilla arcu nulla, malesuada gravida nisi auctor a. Vivamus pellentesque placerat massa, sed pharetra elit aliquam at.
+sl.</p>
+    </div>
+</section>
+ 
+<section class="carrossel">
+  <h2 class="carrossel__titulo">Mais vendidos</h2>
+  <!-- Slider main container -->
+  <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"> 
+            <img id="teste"> </div>
+          <div class="swiper-slide"><img src="img/2462022121922100.webp"
+                  alt="Livro sobre liderança em design da alura books"></div>
+          <div class="swiper-slide"><img src="img/872022121244995.webp"
+                  alt="Livro sobre javascript assertivo da alurabooks"></div>
+          <div class="swiper-slide"><img src="img/13112021183942865.webp" alt="Livro Guia front end"></div>
+          <div class="swiper-slide"><img src="img/26112022141920276.webp" alt="Livro sobre portugol"></div>
+          <div class="swiper-slide"><img src="img/20102021131733715.webp" alt="livro sobre acessibilidade"></div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<section class="topicos">
+    <h3>topicos mais visitados</h3>
+    <ul class="topicos__principal">
+      <li class="topicos__secundario">
+        <a href="#" class="topicos_link">Yeezy</a>
+      </li>
+      <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Jordan High</a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Jordan Low</a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Dunk SB</a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Off White</a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Dunk Low</a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Nike </a>
+    </li>
+    <li class="topicos__secundario">
+      <a href="#" class="topicos_link">Adidas</a>
+    </li>
+    </ul>
+</section>
+
+<section class="footer">
+  <div class="footer-principal">
+    <h4 class="footer-titulo">Fique por dentro das novidades</h4>
+    <p class="footer-palavras">Cadastre-se e ganhe 15%OFF em todo o site e para todo o Brasil.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+  </div>
+</section>
+
+<hr>
+
+<section class="finish">
+  <div class="finish-principal">
+    <h5 class="finish-titulo">Direitos Autorais by Henrique.</h5>
+ 
+
+
+  </div>
+</section>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+    </script>
+</body>
+</html>

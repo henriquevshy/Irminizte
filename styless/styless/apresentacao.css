@@ -1,0 +1,17 @@
+.apresentacao{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: var(--azul-degrade);
+  color: var(--branco);
+  font-style: var(--fonte-principal);
+  margin-top: 2vh;
+}
+.irminite-titulo {
+  margin-top: 0.5vh;
+}
+
+.apresentacao-irminite {
+  margin-top: 2vh;
+}
+
